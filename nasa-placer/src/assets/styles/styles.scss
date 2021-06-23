@@ -1,0 +1,40 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+}
+
+.main {
+    background-color: #c1c1c1;
+    padding: 15px 0;
+
+    .containerFluid {
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
+
+.meteorsCount {
+    font-size: 3rem;
+    text-align: center;
+}

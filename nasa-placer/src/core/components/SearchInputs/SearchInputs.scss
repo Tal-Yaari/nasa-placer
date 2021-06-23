@@ -1,0 +1,33 @@
+.filterForm {
+  margin: 20px 0;
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  .textField {
+    background-color: #fff;
+    border-radius: 5px;
+
+    & + .textField {
+      margin-left: 50px;
+    }
+
+    .MuiInputLabel-formControl:not(.Mui-focused):not(.MuiFormLabel-filled) {
+        transform: none;
+    }
+
+    label,
+    input {
+      font-size: 2rem;
+      padding: 5px;
+    }
+
+  }
+}
